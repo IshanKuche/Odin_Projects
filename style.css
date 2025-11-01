@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 20px 200px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-bar {
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  font-weight: 500;
+  padding: 10px;
+  gap: 20px;
+  font-size: 20px;
+  color: #a5a8ad;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 120px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-right: 150px;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 8px 30px;
+  color: #e5e7eb;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+}
+
+.placeholder {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e5e7eb;
+  background-color: gray;
+  width: 700px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*information Section starts here*/
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.info {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+.image-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  height: 200px;
+  width: 200px;
+  border: 8px solid #3882f6;
+  border-radius: 20px;
+}
+
+.caption {
+  color: #1f2937;
+  max-width: 200px;
+  font-size: 18px;
+  color: #a5a8ad;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Quote section section starts here*/
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 100px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  color: #1f2937;
+  gap: 5px;
+  font-weight: 300;
+  max-width: 850px;
+  align-items: flex-end;
+}
+
+.quoter {
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 800;
+  float: right;
+}
+
+/*all to action section starts here*/
+
+.section-three {
+  display: flex;
+  padding: 90px 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  width: 1200px;
+  height: 150px;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+.bluebox-theory {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.attention-text {
+  font-size: 24px;
+}
+
+.lead-text {
+  font-size: 18px;
+}
+
+.button-2 button {
+  border: 5px solid #e5e7eb;
+  border-radius: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*footer section starts here*/
+.copyright-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
